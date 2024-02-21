@@ -13,6 +13,15 @@
 .map1{
     display: none;
 }
+@media only screen and (max-width:985px) {
+    .image-container1{
+        display: block;
+    }
+}
+
+.map1{
+    display: none;
+}
 
 @media only screen and (max-width:767px) {
     .map1{
@@ -25,7 +34,7 @@
 .image2{
     display: none;
 }
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:762px) {
     .image2{
         display: block;
         height: 220px;
@@ -36,3 +45,22 @@
 }
 
 
+@media only screen and (max-width:985px) {
+    .image2{
+        display: block;
+        height: 244px;
+    }
+    .image1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:687px) {
+    .image2{
+        display: block;
+        height: 320px;
+    }
+    .image1{
+        display: none;
+    }
+}
